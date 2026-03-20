@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@expo-google-fonts/dm-mono": "^0.4.2",
+    "@expo-google-fonts/dm-sans": "^0.4.2",
+    "@expo-google-fonts/fraunces": "^0.4.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "^2.99.3",
+    "expo": "~55.0.5",
+    "expo-font": "~55.0.4",
+    "expo-router": "~55.0.7",
+    "expo-secure-store": "~55.0.9",
+    "install": "^0.13.0",
+    "npx": "^10.2.2",
+    "react-native-purchases": "^8.9.5",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "undefined": "\\",
+    "react": "19.2.0",
+    "react-native": "0.83.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "typescript": "~5.9.2"
+  },
+  "name": "DietGuru",
+  "version": "1.0.0",
+  "scripts": {}
+}

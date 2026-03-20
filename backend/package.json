@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-native-purchases": "^9.14.0",
+    "react-native-purchases-ui": "^9.14.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "GemBot",
+    "slug": "gembot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gembot",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F7F5F0"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gembot.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F5F0"
+      },
+      "package": "com.gembot.app",
+      "minSdkVersion": 24
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ]
+  }
+}

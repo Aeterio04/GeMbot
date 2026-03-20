@@ -1,0 +1,42 @@
+# ── Python virtualenv ────────────────────────────────────────────────────────
+dietguru/
+
+# ── Node ─────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ── Expo (root-level) ────────────────────────────────────────────────────────
+.expo/
+dist/
+web-build/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env*.local
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Archives / binaries ──────────────────────────────────────────────────────
+*.zip
+*.docx
+
+# Frontend mnt outputs (IDE artifacts)
+frontend/mnt/
+
+# Android debug keystore
+android/app/debug.keystore
+GemBot/android/app/debug.keystore
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo

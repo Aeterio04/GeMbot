@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "expo-router",
+    "expo-font",
+    "expo-secure-store"
+  ],
+  "android": {
+    "package": "com.aeterio04.dietguru"
+  }
+}

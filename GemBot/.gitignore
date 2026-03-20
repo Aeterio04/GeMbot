@@ -1,0 +1,49 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build artifacts (keep android/ source, exclude generated/local files)
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files — keep .env.example, exclude actual secrets
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# iOS (not set up)
+/ios
+
+# Android local/generated — keep source, exclude machine-specific files
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/*.iml
+android/.idea/
+android/app/debug.keystore
