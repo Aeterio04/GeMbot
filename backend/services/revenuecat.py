@@ -2,8 +2,11 @@ import os
 import hmac
 import hashlib
 import httpx
+from pathlib import Path
 from dotenv import load_dotenv
 
+env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+load_dotenv(dotenv_path=env_path)
 load_dotenv()
 
 REVENUECAT_API_KEY = os.getenv("REVENUECAT_API_KEY")

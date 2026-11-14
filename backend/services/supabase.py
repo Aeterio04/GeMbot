@@ -3,9 +3,12 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load from the .env file at the project root
+# Load from the .env file at the project root or backend folder
 env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+backend_env = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=backend_env)
 load_dotenv(dotenv_path=env_path)
+load_dotenv()
 
 # Initialize Supabase client
 supabase = create_client(
